@@ -3,10 +3,10 @@ Aplicação de pedidos (produtos para revenda)
 
 Aplicação Full Stack
 
-http://localhost:8088/home
-http://localhost:8088/home/aguardando
-http://localhost:8088/home/aprovado
-http://localhost:8088/home/entregue
+* http://localhost:8088/home
+* http://localhost:8088/home/aguardando
+* http://localhost:8088/home/aprovado
+* http://localhost:8088/home/entregue
 
 Tecnologias abordadas:
 
