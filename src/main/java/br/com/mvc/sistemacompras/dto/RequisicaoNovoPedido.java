@@ -3,6 +3,7 @@ package br.com.mvc.sistemacompras.dto;
 import javax.validation.constraints.NotBlank;
 
 import br.com.mvc.sistemacompras.model.Pedido;
+import br.com.mvc.sistemacompras.model.StatusPedido;
 
 public class RequisicaoNovoPedido {
 
@@ -54,6 +55,7 @@ public class RequisicaoNovoPedido {
 		pedido.setUrlImagem(urlImagem);
 		pedido.setUrlProduto(urlProduto);
 		pedido.setDescricao(descricao);
+		pedido.setStatus(StatusPedido.AGUARDANDO);
 		return pedido;
 	}
 

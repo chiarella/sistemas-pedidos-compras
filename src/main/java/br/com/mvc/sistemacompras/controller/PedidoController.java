@@ -40,9 +40,9 @@ public class PedidoController {
 		
 		Pedido pedido =  requisicao.toPedido();
 		repository.save(pedido);
-		
 		System.out.println("CRIANDO NOVO PEDIDO");
-		return "pedido/formulario";
+		return "redirect:/home";
+		//return "pedido/formulario";
 	}
 	
 }
